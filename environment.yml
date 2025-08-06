@@ -1,0 +1,7 @@
+name: notebook
+channels:
+  - conda-forge
+dependencies:
+  # some missing packages in pangeo-notebook
+  - pyobis
+  - cmocean
